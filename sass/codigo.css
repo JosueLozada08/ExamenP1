@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+.navbar__menu {
+  display: flex;
+  gap: 2rem;
+}
+.navbar__link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+.navbar__link:hover {
+  color: #2a9d8f;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+.hero__carousel {
+  position: relative;
+  width: 100%;
+}
+.hero__slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease;
+  opacity: 0;
+}
+.hero__slide--active {
+  display: flex;
+  opacity: 1;
+  position: relative;
+  align-items: center;
+}
+.hero__title {
+  font-size: 3rem;
+  color: #2a9d8f;
+  line-height: 1.2;
+}
+.hero__cta-button {
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: #e76f51;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.hero__cta-button:hover {
+  background-color: #e14a24;
+}/*# sourceMappingURL=codigo.css.map */

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Popular</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <!-- <link rel="stylesheet" href="sass/codigo.scss">  -->
+</head>
+<body>
+    <!-- Navegación Principal -->
+    <header class="navbar">
+        <div class="navbar__logo">Banco Popular</div>
+        <nav class="navbar__menu">
+            <a href="#" class="navbar__link">Para ti</a>
+            <a href="#" class="navbar__link">Para tu Empresa</a>
+            <a href="#" class="navbar__link">Gobierno</a>
+            <a href="#" class="navbar__link">Sobre Nosotros</a>
+            <a href="#" class="navbar__link">Buscar</a>
+        </nav>
+    </header>
+
+    <!-- Sub-Navegación -->
+    <section class="subnavbar">
+        <div class="subnavbar__item">Zona Transaccional</div>
+        <div class="subnavbar__item">
+            <img src="img/personas.png" alt="Personas" class="subnavbar__icon"> Personas
+        </div>
+        <div class="subnavbar__item">
+            <img src="img/empresas.png" alt="Empresas" class="subnavbar__icon"> Empresas
+        </div>
+    </section>
+
+    <!-- Hero Section con Carrusel -->
+    <section class="hero">
+        <div class="hero__carousel">
+            <div class="hero__slide hero__slide--active">
+                <div class="hero__content">
+                    <h1 class="hero__title">Cuota de Manejo $0 Pesos</h1>
+                    <p class="hero__subtitle">en tu Tarjeta de Crédito</p>
+                    <button class="hero__cta-button">Pídela Ahora</button>
+                </div>
+                <div class="hero__image">
+                    <img src="img/Mano.png" alt="Tarjeta de Crédito en Mano">
+                </div>
+            </div>
+            <div class="hero__slide">
+                <div class="hero__content">
+                    <h1 class="hero__title">Beneficio Exclusivo</h1>
+                    <p class="hero__subtitle">Aprovecha los beneficios de nuestra tarjeta</p>
+                    <button class="hero__cta-button">Solicítala</button>
+                </div>
+                <div class="hero__image">
+                    <img src="img/beneficios.jpeg" alt="Beneficio Exclusivo">
+                </div>
+            </div>
+            <div class="hero__slide">
+                <div class="hero__content">
+                    <h1 class="hero__title">Puntos de Recompensa</h1>
+                    <p class="hero__subtitle">Gana puntos por cada compra</p>
+                    <button class="hero__cta-button">Conoce Más</button>
+                </div>
+                <div class="hero__image">
+                    <img src="img/recompensa.png" alt="Puntos de Recompensa">
+                </div>
+            </div>
+        </div>
+        <div class="hero__indicators">
+            <span class="hero__indicator hero__indicator--active"></span>
+            <span class="hero__indicator"></span>
+            <span class="hero__indicator"></span>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="featured-products">
+        <h2 class="featured-products__title">Productos Destacados</h2>
+        <div class="featured-products__grid">
+            <div class="product-item">
+                <img src="img/icon1.png" alt="Servicio al Cliente" class="product-item__icon">
+                <p class="product-item__text">Servicio al Cliente</p>
+            </div>
+            <div class="product-item">
+                <img src="img/icon2.png" alt="Tarjeta de Crédito" class="product-item__icon">
+                <p class="product-item__text">Tarjeta de Crédito</p>
+            </div>
+            <div class="product-item">
+                <img src="img/icon3.png" alt="Cuenta de Ahorros" class="product-item__icon">
+                <p class="product-item__text">Cuenta de Ahorros</p>
+            </div>
+            <div class="product-item">
+                <img src="img/icon4.png" alt="Portal Empresarial" class="product-item__icon">
+                <p class="product-item__text">Portal Empresarial</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section class="recommendations">
+        <h2 class="recommendations__title">Pensando en ti te recomendamos</h2>
+        <div class="recommendations__grid">
+            <div class="recommendation-item">
+                <img src="img/recomendation1.png" alt="Maneja tu Dinero desde el Celular" class="recommendation-item__image">
+                <button class="recommendation-item__button">Conoce más</button>
+            </div>
+            <div class="recommendation-item">
+                <img src="img/recomendation2.png" alt="Solicita tus Certificados Tributarios" class="recommendation-item__image">
+                <button class="recommendation-item__button">Conoce más</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact">
+        <h2 class="contact__title">¿Tienes Dudas?</h2>
+        <div class="contact__options">
+            <div class="contact__option">
+                <p class="contact__text">Comunícate con Nosotros</p>
+                <a href="#" class="contact__link">Llámanos o Escríbenos</a>
+            </div>
+            <div class="contact__option">
+                <p class="contact__text">Información de Interés</p>
+                <a href="#" class="contact__link">Conoce todo Aquí</a>
+            </div>
+            <div class="contact__option">
+                <p class="contact__text">Información Institucional</p>
+                <a href="#" class="contact__link">Entérate de lo que tenemos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">Líneas de Atención</p>
+            <p class="footer__text">Bogotá 743 4646</p>
+            <p class="footer__text">Línea Nacional 01 8000 184646</p>
+        </div>
+        <div class="footer__logos">
+            <img src="img/logo1.png" alt="Grupo Aval" class="footer__logo">
+            <img src="img/logo2.png" alt="Red Aval" class="footer__logo">
+            <img src="img/logo3.png" alt="Fogafin" class="footer__logo">
+            <img src="img/logo4.png" alt="Aval Pay Center" class="footer__logo">
+            <img src="img/logo5.png" alt="facil Pass" class="footer__logo">
+        </div>
+        <p class="footer__copyright">Copyright © 2021 Banco Popular</p>
+    </footer>
+
+    <!-- JavaScript para el Carrusel -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.hero__slide');
+        const indicators = document.querySelectorAll('.hero__indicator');
+        const slideInterval = 3000;
+        let autoSlideInterval;
+    
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('hero__slide--active');
+                indicators[i].classList.remove('hero__indicator--active');
+                if (i === index) {
+                    slide.classList.add('hero__slide--active');
+                    indicators[i].classList.add('hero__indicator--active');
+                }
+            });
+            currentSlide = index;
+        }
+    
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+    
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, slideInterval);
+        }
+    
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+    
+        // Agrega el evento click a cada indicador para seleccionar el slide manualmente
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                showSlide(index);
+                resetAutoSlide();  // Reinicia el temporizador al seleccionar manualmente
+            });
+        });
+    
+        // Inicia el carrusel automático
+        startAutoSlide();
+    </script>
+    
+</body>
+</html>
